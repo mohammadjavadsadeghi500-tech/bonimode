@@ -7,14 +7,15 @@
     <link rel="stylesheet" href="./src/assets/css/main.css" />
     <title>bonimode</title>
   </head>
-  <body>
+  <body dir="rtl">
     <!-- wrapper -->
-    <div class="px-8">
+    <div class="wrapper px-8">
+      <!-- menu part up start  -->
       <div
-        class="w-full h-[48px] bg-violet-500 p-4 flex justify-between items-center"
+        class="menu-body w-full h-[48px] px-4 mt-8 flex justify-between items-center"
       >
-        <!--svg بانی مد   -->
-        <div class="w-32 h-6">
+        <!--svg بانی مد start -->
+        <div class="boni-svg w-32 h-6 cursor-pointer">
           <svg
             width="132"
             height="24"
@@ -65,21 +66,21 @@
             </defs>
           </svg>
         </div>
-        <!--svg بانی مد   -->
+        <!--svg بانی مد end  -->
         <!--   search bar start-->
         <div
-          dir="rtl"
-          class="w-[533px] h-[40px]  rounded-lg flex justify-between items-center bg-gray-400"
+          class="searchbar-body w-[533px] h-[40px] rounded-lg flex justify-between items-center bg-gray-100"
         >
-          <div class="w-8 h-8 flex justify-center items-center">
+          <!-- search svg menu start -->
+          <div class="search-svg w-8 h-8 flex justify-center items-center">
             <svg
+              class="!stroke-gray-500"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="24"
               fill="none"
             >
               <g
-                stroke="#101010"
                 stroke-linecap="round"
                 stroke-linejoin="round"
                 stroke-width="1.5"
@@ -91,27 +92,30 @@
               </g>
               <defs>
                 <clipPath id="search_svg__a">
-                  <path fill="#fff" d="M0 0h24v24H0z"></path>
+                  <path d="M0 0h24v24H0z"></path>
                 </clipPath>
               </defs>
             </svg>
           </div>
+          <!-- search svg menu end -->
+          <!-- placeholder menu start -->
           <input
-            class="w-full h-full py-4 pl-10 text-[15px] bg-transparent focus:outline-none text-black"
+            class="w-full h-full py-2 px-2 pl-10 text-[15px] bg-gray-100 rounded-lg font-[500] focus:outline-none placeholder-gray-400 text-gray-700"
             type="text"
             placeholder="جست‌وجو میان هزاران برند و صدها هزار کالا"
           />
+          <!-- placeholder menu end -->
         </div>
         <!--   search bar end-->
         <!-- منو ثبت نام شروع -->
-        <div class="w-[174px] h-[48px] flex justify-between items-center">
+        <div class="w-[174px] h-[44px] flex justify-between items-center">
           <button
             type="button"
             class="text-white bg-[linear-gradient(268deg,rgb(25,177,106)_0%,rgb(43,140,81)_100%)] font-semibold flex justify-center items-center gap-2 h-12 rounded-md text-[13px] lg:text-base px-2 px-4 !rounded-full text-[15px] h-11"
           >
             ورود / ثبت‌نام
           </button>
-          <div class="w-8 h-8">
+          <div class="w-8 h-8 cursor-pointer">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -139,6 +143,23 @@
         </div>
         <!-- منو ثبت نام تمام -->
       </div>
+      <!-- menu part up end  -->
+      <!-- menu part bottom start  -->
+      <div class="navbar-body w-full h-[40px]  mt-5">
+        <div class="navbar w-full h-full bg-gray-300 flex justify-start items-center gap-3 text-yellow-700">
+          <ul class="flex justify-start items-center gap-10">
+            <li>دسته بندی کالاها</li>
+            <li>شگفت انگیز</li>
+            <li>اوتلت</li>
+            <li>1</li>
+            <li>برند ها</li>
+            <li>خانه مد </li>
+            <li>کارت هدیه</li>
+            <li>بانی مگ</li>
+          </ul>
+        </div>
+      </div>
+      <!-- menu part bottom end  -->
     </div>
     <!-- wrapper -->
     <script type="module" src="/src/main.js"></script>
