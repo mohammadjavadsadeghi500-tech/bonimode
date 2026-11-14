@@ -554,38 +554,12 @@ video {
   display: none;
 }
 
-.my-4 {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
-.my-5 {
-  margin-top: 1.25rem;
-  margin-bottom: 1.25rem;
-}
-
 .mt-5 {
   margin-top: 1.25rem;
 }
 
 .mt-8 {
   margin-top: 2rem;
-}
-
-.mb-5 {
-  margin-bottom: 1.25rem;
-}
-
-.mt-2 {
-  margin-top: 0.5rem;
-}
-
-.mt-3 {
-  margin-top: 0.75rem;
-}
-
-.mt-6 {
-  margin-top: 1.5rem;
 }
 
 .flex {
@@ -622,34 +596,6 @@ video {
 
 .h-full {
   height: 100%;
-}
-
-.h-\[22px\] {
-  height: 22px;
-}
-
-.h-\[30px\] {
-  height: 30px;
-}
-
-.h-\[464px\] {
-  height: 464px;
-}
-
-.h-\[74px\] {
-  height: 74px;
-}
-
-.h-\[80px\] {
-  height: 80px;
-}
-
-.h-\[auto\] {
-  height: auto;
-}
-
-.h-auto {
-  height: auto;
 }
 
 .w-32 {
@@ -728,10 +674,6 @@ video {
   gap: 0.75rem;
 }
 
-.gap-4 {
-  gap: 1rem;
-}
-
 .\!rounded-full {
   border-radius: 9999px !important;
 }
@@ -742,28 +684,6 @@ video {
 
 .rounded-md {
   border-radius: 0.375rem;
-}
-
-.rounded-2xl {
-  border-radius: 1rem;
-}
-
-.border-\[1px\] {
-  border-width: 1px;
-}
-
-.border-solid {
-  border-style: solid;
-}
-
-.border-black {
-  --tw-border-opacity: 1;
-  border-color: rgb(0 0 0 / var(--tw-border-opacity, 1));
-}
-
-.border-green-600 {
-  --tw-border-opacity: 1;
-  border-color: rgb(22 163 74 / var(--tw-border-opacity, 1));
 }
 
 .bg-gray-100 {
@@ -863,18 +783,6 @@ video {
   padding-left: 2.5rem;
 }
 
-.pb-3 {
-  padding-bottom: 0.75rem;
-}
-
-.pt-4 {
-  padding-top: 1rem;
-}
-
-.align-middle {
-  vertical-align: middle;
-}
-
 .text-\[13px\] {
   font-size: 13px;
 }
@@ -883,34 +791,12 @@ video {
   font-size: 15px;
 }
 
-.text-\[14px\] {
-  font-size: 14px;
-}
-
-.text-\[16px\] {
-  font-size: 16px;
-}
-
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
 .font-\[500\] {
   font-weight: 500;
 }
 
 .font-semibold {
   font-weight: 600;
-}
-
-.font-light {
-  font-weight: 300;
 }
 
 .text-gray-700 {
@@ -928,25 +814,6 @@ video {
   color: rgb(161 98 7 / var(--tw-text-opacity, 1));
 }
 
-.text-gray-500 {
-  --tw-text-opacity: 1;
-  color: rgb(107 114 128 / var(--tw-text-opacity, 1));
-}
-
-.text-gray-600 {
-  --tw-text-opacity: 1;
-  color: rgb(75 85 99 / var(--tw-text-opacity, 1));
-}
-
-.text-green-600 {
-  --tw-text-opacity: 1;
-  color: rgb(22 163 74 / var(--tw-text-opacity, 1));
-}
-
-.text-transparent {
-  color: transparent;
-}
-
 .placeholder-gray-400::-moz-placeholder {
   --tw-placeholder-opacity: 1;
   color: rgb(156 163 175 / var(--tw-placeholder-opacity, 1));
@@ -956,72 +823,6 @@ video {
   --tw-placeholder-opacity: 1;
   color: rgb(156 163 175 / var(--tw-placeholder-opacity, 1));
 }
-
-/* fonts */
-
-@font-face {
-  font-family: "yekan-bakh";
-
-  src:
-    url("../../fonts/yekan-bakh/YekanBakh.woff2") format("woff2"),
-    url("../../fonts/yekan-bakh/YekanBakh.woff") format("woff"),
-    url("../../fonts/yekan-bakh/YekanBakh.ttf") format("ttf"),
-    url("../../fonts/yekan-bakh/YekanBakh.eot") format("eot");
-
-  font-weight: normal;
-
-  font-style: normal;
-
-  font-display: swap;
-}
-
-/* font 2 start  */
-
-@font-face {
-  font-family: "morabba";
-
-  src: url("../../fonts/morabba/Morabba-Regular.woff2");
-
-  src: url("../../fonts/morabba/Morabba-Regular.woff");
-
-  src: url("../../fonts/morabba/Morabba-Regular.ttf");
-
-  src: url("../../fonts/morabba/Morabba-Regular.eot");
-
-  font-weight: normal;
-
-  font-style: normal;
-
-  font-display: swap;
-}
-
-/* fonts */
-
-/*  first slider */
-
-.swiper .swiper-pagination-bullet {
-  height: 0.5rem;
-  width: 0.5rem;
-  --tw-bg-opacity: 1;
-  background-color: rgb(107 114 128 / var(--tw-bg-opacity, 1));
-  opacity: 1;
-  transition-property: all;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
-.swiper .swiper-pagination-bullet-active {
-  width: 1.5rem;
-  border-radius: 9999px;
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
-}
-
-/* first slider end  */
-
-/* footer componnet start */
-
-/* footer componnet end */
 
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
