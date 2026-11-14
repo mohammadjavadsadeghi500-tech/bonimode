@@ -1,3 +1,61 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* fonts */
+
+@font-face {
+  font-family: "yekan-bakh";
+
+  src:
+    url("../../fonts/yekan-bakh/YekanBakh.woff2") format("woff2"),
+    url("../../fonts/yekan-bakh/YekanBakh.woff") format("woff"),
+    url("../../fonts/yekan-bakh/YekanBakh.ttf") format("ttf"),
+    url("../../fonts/yekan-bakh/YekanBakh.eot") format("eot");
+
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* font 2 start  */
+
+@font-face {
+  font-family: "morabba";
+  src: url("../../fonts/morabba/Morabba-Regular.woff2");
+  src: url("../../fonts/morabba/Morabba-Regular.woff");
+  src: url("../../fonts/morabba/Morabba-Regular.ttf");
+  src: url("../../fonts/morabba/Morabba-Regular.eot");
+
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* fonts */
+
+/*  first slider */
+
+.swiper .swiper-pagination-bullet {
+  @apply h-2 w-2 bg-gray-500 opacity-100 transition-all;
+}
+.swiper .swiper-pagination-bullet-active {
+  @apply w-6 rounded-full bg-white;
+}
+/* first slider end  */
+/* footer componnet start */
+
+@layer components {
+  .footer-font-title {
+    @apply pb-4 text-[16px] font-light text-[#808080] font-yekan;
+  }
+
+  .footer-font-normal {
+    @apply pb-2 text-[12px] font-medium text-black font-yekan;
+  }
+  .footer-box {
+    @apply w-full !h-[48px] bg-white mt-3 px-2 rounded-md  flex justify-center items-center py-2 border-none gap-2;
+  }
+}
+
+/* footer componnet end */
