@@ -62,12 +62,19 @@
 
 @layer components {
   .S-T {
-    @apply w-full h-[500px] rounded-3xl flex flex-col justify-between items-center py-8 px-[24px] overflow-hidden;
+    @apply w-full h-[500px] rounded-3xl flex flex-col justify-between items-center py-8 px-[24px] overflow-hidden gap-5;
 
     background-image: linear-gradient(
       to bottom,
       rgba(0, 128, 0, 0.6) 50%,
       white 50%
     );
+  }
+}
+/* slider 2 cards */
+@layer components {
+  .card-body {
+    @apply align-middle w-full font-yekan bg-gray-700 rounded-xl   flex flex-col justify-between items-center overflow-hidden relative ;
+
   }
 }
