@@ -74,7 +74,20 @@
 /* slider 2 cards */
 @layer components {
   .card-body {
-    @apply align-middle w-full font-yekan bg-gray-700 rounded-xl   flex flex-col justify-between items-center overflow-hidden relative ;
+    @apply w-full font-yekan rounded-xl cursor-pointer  flex flex-col justify-start items-center overflow-hidden relative;
+  }
+}
 
+/* رنگ های پس زمینه  */
+@layer components {
+  .back-orange {
+    @apply bg-[linear-gradient(89deg,#FF1313_0%,#EF6B26_100%)] text-white;
+  }
+}
+
+/* برای فلش ها که محو بشن  */
+@layer components {
+  .swiper-button-disabled {
+    @apply !opacity-0 pointer-events-none;
   }
 }
