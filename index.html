@@ -11,7 +11,7 @@
   </head>
   <body dir="rtl">
     <!-- wrapper header start-->
-    <div class="wrapper-header px-14">
+    <div class="wrapper-header px-14 mx-auto w-[1500px]">
       <!-- menu part up start  -->
       <div
         class="menu-body w-full h-[48px] px-4 mt-8 flex justify-between items-center"
@@ -167,7 +167,7 @@
     </div>
     <!-- wrapper header end-->
     <!-- wrapper body start -->
-    <div class="wrapper-body px-14">
+    <div class="wrapper-body px-14 w-[1500px] mx-auto">
       <!-- slider 1 start -->
       <!-- Swiper -->
       <div class="swiper mySwiper w-full h-[464px] rounded-2xl my-4">
@@ -221,10 +221,15 @@
         <div class="swiper-pagination"></div>
       </div>
       <!-- slider 1 end -->
+
       <!--  slider 2 start -->
+      <!-- اسلایدر شگفت انگیز شروع  -->
+
       <div class="slider-product">
         <div class="S-T">
+          <!-- نوار بالای اسلایدر شگقت انگیز به همراه زمان شروع -->
           <div class="slider-top w-full h-[50px] flex justify-between">
+            <!--باکس راست تکست + ایکون شگفت انگیز  -->
             <div
               class="right w-[212px] h-full flex justify-start items-center gap-2 cursor-pointer"
             >
@@ -241,6 +246,8 @@
                 </h2>
               </div>
             </div>
+            <!--باکس راست تکست + ایکون شگفت انگیز  -->
+            <!-- باکس چپ زمان + دکمه مشاهده همه  -->
             <div
               class="left w-[500px] h-full flex items-center justify-between"
             >
@@ -299,106 +306,1641 @@
                 مشاهده همه
               </button>
             </div>
+            <!-- باکس چپ زمان + دکمه مشاهده همه  -->
           </div>
-          <!-- slider-bottom start -->
+          <!-- نوار بالای اسلایدر شگقت انگیز به همراه زمان پایان -->
+          <!-- بخش پایینی اسلایدر شگفت انگیز / خود اسلادیر شروع  -->
           <div class="slider-bottom w-full h-full">
+            <!-- اسلایدر دوم شروع sweper start  -->
             <div class="swiper mySwiper2 w-full h-full">
+              <!-- body of cards start -->
               <div class="swiper-wrapper w-full h-full">
-                <div class="swiper-slide card-body">Slide 1</div>
+                <!-- card 1 start -->
                 <div class="swiper-slide card-body">
-                  <div class="sale-offer left-5 top-4 w-14 h-8 bg-white rounded-full  absolute flex justify-center items-center ">
-                    <span class="text-[16px] text-black  font-yekan">
-                      50%
-                    </span>
+                  <!-- sale simbol start -->
+                  <div
+                    class="sale-offer left-5 top-4 w-14 h-8 pointer-events-none rounded-full absolute flex justify-center items-center back-orange z-10"
+                  >
+                    <span class="text-[16px] font-yekan"> 50% </span>
                   </div>
+                  <!-- sale simbol end -->
+                  <!-- باکس برای (باقیمانده محصوصلات) شروع  -->
                   <div
-                    class="pic-of-slider w-full h-[305px] bg-yellow-300 rounded-xl overflow-hidden"
+                    class="box-of-products absolute z-10 left-1/2 top-64 -translate-x-1/2 flex flex-row-reverse items-center justify-center gap-2 rounded-md back-orange px-2 py-2 text-nowrap pointer-events-none w-[90%]"
                   >
-                <img src="./src/pics/body/sliders/pics/shirt.jpg" alt=""></div>
-                  <div
-                    class="text-of-slider w-full h-[23px] px-2 mt-1 truncate"
-                  >
-                    <span class="font-yekan text-[14px] text-black">
-                      شلوار جین مردانه سوپردرای مدل M17A42403C
+                    <!-- text start  -->
+                    <span
+                      class="text-of-numbers text-white font-yekan text-[16px]"
+                    >
+                      باقی مانده N عدد
                     </span>
-                  </div>
-                  <div
-                    class="text-price-slider w-full h-[26px]  mt-1 flex flex-row-reverse justify-end px-4 gap-2 items-center"
-                  >
-                    <div class="icon-toman">
+                    <!-- text end -->
+
+                    <!-- icon of numbers start -->
+                    <div class="icon-of-numbers w-6 h-6">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        width="20"
-                        height="20"
                         fill="none"
+                        viewBox="0 0 24 24"
                       >
-                        <path
-                          fill="#000"
-                          d="M16.065 6.805q0 .66-.398 1.042-.39.375-1.058.374H6.33q-.079 0-.079-.509 0-.549.08-.549h8.28a.47.47 0 0 0 .318-.103.38.38 0 0 0 .127-.303V5.484h1.01zm.191-3.055v.907h-2.244V3.75z"
-                        />
-                        <path
-                          fill="#000"
-                          d="M6.903 7.828q0 1.013-.54 1.592-.534.58-1.47.58H3.75V8.972h1.206q.456 0 .71-.224.255-.216.256-.595H5.38q-.835 0-1.198-.348-.356-.348-.356-1.105 0-.495.193-.88.195-.388.541-.604Q4.916 5 5.381 5q.711 0 1.112.464.41.463.41 1.283zM4.801 6.662q0 .246.131.363.14.108.487.108h.503V6.73q0-.37-.147-.564a.5.5 0 0 0-.425-.193.49.49 0 0 0-.41.193q-.14.185-.139.495M12.647 15.218q.223 0 .31-.086.096-.085.096-.28v-.217q0-.753.438-1.188.445-.442 1.2-.442.758 0 1.154.427.406.42.406 1.21 0 .762-.421 1.189-.422.42-1.178.42-.398 0-.66-.094a.83.83 0 0 1-.39-.28.9.9 0 0 1-.382.288q-.223.085-.573.085h-.207q-.08 0-.08-.497 0-.536.08-.536zm2.602-.575q0-.652-.597-.652t-.597.652q0 .279.144.435.15.147.453.147.302 0 .446-.14.15-.147.15-.442"
-                        />
-                        <path
-                          fill="#000"
-                          d="M12.436 15.217q.08 0 .08.536 0 .319-.024.412-.024.084-.056.085h-1.193q-.08 0-.08-.497 0-.536.08-.536z"
-                        />
-                        <path
-                          fill="#000"
-                          d="M11.24 15.217q.04 0 .056.101.024.102.024.435 0 .31-.024.404-.016.093-.056.093h-.286q-.668 0-1.019-.373-.342-.38-.342-1.079V11.25h1.019v3.478q0 .249.095.373.104.117.318.116zM5.906 16.239q-1.035 0-1.6-.583-.556-.574-.556-1.615V12.49h1.01v1.53q0 .59.279.884.278.303.867.303h.318q.573 0 .9-.295.325-.295.325-.815v-2.384h1.01v2.306q0 .698-.278 1.196a1.8 1.8 0 0 1-.787.76q-.501.265-1.17.265zm-.517-3.35v-.884H6.47v.885z"
-                        />
-                        <rect
-                          width="19"
-                          height="19"
-                          x="0.5"
-                          y="0.5"
-                          stroke="#C6C6C6"
-                          rx="1.5"
-                        />
+                        <g
+                          stroke="#fff"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          clip-path="url(#stock-left-clock_svg__a)"
+                        >
+                          <path d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18"></path>
+                          <path
+                            d="M12 13.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3M17.924 10.076c.197.606.306 1.252.306 1.924M13.924 6.076A6.2 6.2 0 0 0 12 5.769 6.23 6.23 0 0 0 5.769 12M13.06 10.939l3.345-3.345"
+                          ></path>
+                        </g>
+                        <defs>
+                          <clipPath id="stock-left-clock_svg__a">
+                            <path fill="#fff" d="M0 0h24v24H0z"></path>
+                          </clipPath>
+                        </defs>
                       </svg>
                     </div>
-                    <div class="price-1 w-auto h-full flex justify-center items-center py-2">
-                      <span
-                        class="text-green-700 font-yekan text-[16px] font-semibold"
-                      >
-                        4,449,000
+                    <!-- icon of numbers end  -->
+                  </div>
+                  <!-- باکس برای باقیمانده محصوصلات پایان -->
+                  <!-- card 1 start -->
+                  <div class="swiper-slide">
+                    <!-- pic of card start  -->
+                    <div
+                      class="pic-of-slider group w-full h-[305px] rounded-xl overflow-hidden relative"
+                    >
+                      <img
+                        class="opacity-100 group-hover:opacity-0 absolute transition-opacity duration-100 top-100 left-0 w-full"
+                        src="./src/pics/body/sliders/amazing slider/pair-1/imgi_1169_574711.jpg"
+                        alt="#"
+                      />
+                      <img
+                        class="opacity-0 group-hover:opacity-100 transition-opacity duration-100 absolute top-100 left-0 w-full"
+                        src="./src/pics/body/sliders/amazing slider/pair-1/imgi_1172_574711.jpg"
+                        alt="#"
+                      />
+                    </div>
+                    <!-- pic of card end -->
+                    <!-- text of card start -->
+                    <div
+                      class="text-of-slider w-full h-[23px] px-2 mt-1 truncate"
+                    >
+                      <span class="font-yekan text-[14px] text-black">
+                        شلوار جین مردانه سوپردرای مدل M17A42403C
                       </span>
                     </div>
-                    <div class="price-2 w-auto h-full flex justify-center items-center py-2">
-                      <span
-                        class="text-gray-400 line-through font-yekan font-semibold text-[14px]"
+                    <!-- text of card end -->
+                    <!-- text-2 of card start -->
+
+                    <div
+                      class="text-price-slider w-full h-[26px] mt-1 flex flex-row-reverse justify-end px-4 gap-2 items-center"
+                    >
+                      <div class="icon-toman">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="20"
+                          height="20"
+                          fill="none"
+                        >
+                          <path
+                            fill="#000"
+                            d="M16.065 6.805q0 .66-.398 1.042-.39.375-1.058.374H6.33q-.079 0-.079-.509 0-.549.08-.549h8.28a.47.47 0 0 0 .318-.103.38.38 0 0 0 .127-.303V5.484h1.01zm.191-3.055v.907h-2.244V3.75z"
+                          />
+                          <path
+                            fill="#000"
+                            d="M6.903 7.828q0 1.013-.54 1.592-.534.58-1.47.58H3.75V8.972h1.206q.456 0 .71-.224.255-.216.256-.595H5.38q-.835 0-1.198-.348-.356-.348-.356-1.105 0-.495.193-.88.195-.388.541-.604Q4.916 5 5.381 5q.711 0 1.112.464.41.463.41 1.283zM4.801 6.662q0 .246.131.363.14.108.487.108h.503V6.73q0-.37-.147-.564a.5.5 0 0 0-.425-.193.49.49 0 0 0-.41.193q-.14.185-.139.495M12.647 15.218q.223 0 .31-.086.096-.085.096-.28v-.217q0-.753.438-1.188.445-.442 1.2-.442.758 0 1.154.427.406.42.406 1.21 0 .762-.421 1.189-.422.42-1.178.42-.398 0-.66-.094a.83.83 0 0 1-.39-.28.9.9 0 0 1-.382.288q-.223.085-.573.085h-.207q-.08 0-.08-.497 0-.536.08-.536zm2.602-.575q0-.652-.597-.652t-.597.652q0 .279.144.435.15.147.453.147.302 0 .446-.14.15-.147.15-.442"
+                          />
+                          <path
+                            fill="#000"
+                            d="M12.436 15.217q.08 0 .08.536 0 .319-.024.412-.024.084-.056.085h-1.193q-.08 0-.08-.497 0-.536.08-.536z"
+                          />
+                          <path
+                            fill="#000"
+                            d="M11.24 15.217q.04 0 .056.101.024.102.024.435 0 .31-.024.404-.016.093-.056.093h-.286q-.668 0-1.019-.373-.342-.38-.342-1.079V11.25h1.019v3.478q0 .249.095.373.104.117.318.116zM5.906 16.239q-1.035 0-1.6-.583-.556-.574-.556-1.615V12.49h1.01v1.53q0 .59.279.884.278.303.867.303h.318q.573 0 .9-.295.325-.295.325-.815v-2.384h1.01v2.306q0 .698-.278 1.196a1.8 1.8 0 0 1-.787.76q-.501.265-1.17.265zm-.517-3.35v-.884H6.47v.885z"
+                          />
+                          <rect
+                            width="19"
+                            height="19"
+                            x="0.5"
+                            y="0.5"
+                            stroke="#C6C6C6"
+                            rx="1.5"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        class="price-1 w-auto h-full flex justify-center items-center py-2"
                       >
-                        9,950,000
-                      </span>
+                        <span
+                          class="text-green-700 font-yekan text-[16px] font-semibold"
+                        >
+                          4,449,000
+                        </span>
+                      </div>
+                      <div
+                        class="price-2 w-auto h-full flex justify-center items-center py-2"
+                      >
+                        <span
+                          class="text-gray-400 line-through font-yekan font-semibold text-[14px]"
+                        >
+                          9,950,000
+                        </span>
+                      </div>
                     </div>
+                    <!-- text-2 of card end -->
                   </div>
                 </div>
-                <div class="swiper-slide card-body">Slide 3</div>
-                <div class="swiper-slide card-body">Slide 4kldjhklj</div>
-                <div class="swiper-slide card-body">Slide 5</div>
-                <div class="swiper-slide card-body">Slide 6</div>
-                <div class="swiper-slide card-body">Slide 7</div>
-                <div class="swiper-slide card-body">Slide 8</div>
-                <div class="swiper-slide card-body">Slide 9</div>
+                <!-- card 1 end -->
+
+                <!-- card-2 start -->
+                <div class="swiper-slide card-body">
+                  <!-- sale simbol start -->
+                  <div
+                    class="sale-offer left-5 top-4 w-14 h-8 pointer-events-none rounded-full absolute flex justify-center items-center back-orange z-10"
+                  >
+                    <span class="text-[16px] font-yekan"> 50% </span>
+                  </div>
+                  <!-- sale simbol end -->
+                  <!-- باکس برای (باقیمانده محصوصلات) شروع  -->
+                  <div
+                    class="box-of-products absolute z-10 left-1/2 top-64 -translate-x-1/2 flex flex-row-reverse items-center justify-center gap-2 rounded-md back-orange px-2 py-2 text-nowrap pointer-events-none w-[90%]"
+                  >
+                    <!-- text start  -->
+                    <span
+                      class="text-of-numbers text-white font-yekan text-[16px]"
+                    >
+                      باقی مانده N عدد
+                    </span>
+                    <!-- text end -->
+
+                    <!-- icon of numbers start -->
+                    <div class="icon-of-numbers w-6 h-6">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                      >
+                        <g
+                          stroke="#fff"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          clip-path="url(#stock-left-clock_svg__a)"
+                        >
+                          <path d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18"></path>
+                          <path
+                            d="M12 13.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3M17.924 10.076c.197.606.306 1.252.306 1.924M13.924 6.076A6.2 6.2 0 0 0 12 5.769 6.23 6.23 0 0 0 5.769 12M13.06 10.939l3.345-3.345"
+                          ></path>
+                        </g>
+                        <defs>
+                          <clipPath id="stock-left-clock_svg__a">
+                            <path fill="#fff" d="M0 0h24v24H0z"></path>
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </div>
+                    <!-- icon of numbers end  -->
+                  </div>
+                  <!-- باکس برای باقیمانده محصوصلات پایان -->
+                  <!-- card 1 start -->
+                  <div class="swiper-slide">
+                    <!-- pic of card start  -->
+                    <div
+                      class="pic-of-slider group w-full h-[305px] rounded-xl overflow-hidden relative"
+                    >
+                      <img
+                        class="opacity-100 group-hover:opacity-0 absolute transition-opacity duration-100 top-100 left-0 w-full"
+                        src="./src/pics/body/sliders/amazing slider/pair-1/imgi_1169_574711.jpg"
+                        alt="#"
+                      />
+                      <img
+                        class="opacity-0 group-hover:opacity-100 transition-opacity duration-100 absolute top-100 left-0 w-full"
+                        src="./src/pics/body/sliders/amazing slider/pair-1/imgi_1172_574711.jpg"
+                        alt="#"
+                      />
+                    </div>
+                    <!-- pic of card end -->
+                    <!-- text of card start -->
+                    <div
+                      class="text-of-slider w-full h-[23px] px-2 mt-1 truncate"
+                    >
+                      <span class="font-yekan text-[14px] text-black">
+                        شلوار جین مردانه سوپردرای مدل M17A42403C
+                      </span>
+                    </div>
+                    <!-- text of card end -->
+                    <!-- text-2 of card start -->
+
+                    <div
+                      class="text-price-slider w-full h-[26px] mt-1 flex flex-row-reverse justify-end px-4 gap-2 items-center"
+                    >
+                      <div class="icon-toman">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="20"
+                          height="20"
+                          fill="none"
+                        >
+                          <path
+                            fill="#000"
+                            d="M16.065 6.805q0 .66-.398 1.042-.39.375-1.058.374H6.33q-.079 0-.079-.509 0-.549.08-.549h8.28a.47.47 0 0 0 .318-.103.38.38 0 0 0 .127-.303V5.484h1.01zm.191-3.055v.907h-2.244V3.75z"
+                          />
+                          <path
+                            fill="#000"
+                            d="M6.903 7.828q0 1.013-.54 1.592-.534.58-1.47.58H3.75V8.972h1.206q.456 0 .71-.224.255-.216.256-.595H5.38q-.835 0-1.198-.348-.356-.348-.356-1.105 0-.495.193-.88.195-.388.541-.604Q4.916 5 5.381 5q.711 0 1.112.464.41.463.41 1.283zM4.801 6.662q0 .246.131.363.14.108.487.108h.503V6.73q0-.37-.147-.564a.5.5 0 0 0-.425-.193.49.49 0 0 0-.41.193q-.14.185-.139.495M12.647 15.218q.223 0 .31-.086.096-.085.096-.28v-.217q0-.753.438-1.188.445-.442 1.2-.442.758 0 1.154.427.406.42.406 1.21 0 .762-.421 1.189-.422.42-1.178.42-.398 0-.66-.094a.83.83 0 0 1-.39-.28.9.9 0 0 1-.382.288q-.223.085-.573.085h-.207q-.08 0-.08-.497 0-.536.08-.536zm2.602-.575q0-.652-.597-.652t-.597.652q0 .279.144.435.15.147.453.147.302 0 .446-.14.15-.147.15-.442"
+                          />
+                          <path
+                            fill="#000"
+                            d="M12.436 15.217q.08 0 .08.536 0 .319-.024.412-.024.084-.056.085h-1.193q-.08 0-.08-.497 0-.536.08-.536z"
+                          />
+                          <path
+                            fill="#000"
+                            d="M11.24 15.217q.04 0 .056.101.024.102.024.435 0 .31-.024.404-.016.093-.056.093h-.286q-.668 0-1.019-.373-.342-.38-.342-1.079V11.25h1.019v3.478q0 .249.095.373.104.117.318.116zM5.906 16.239q-1.035 0-1.6-.583-.556-.574-.556-1.615V12.49h1.01v1.53q0 .59.279.884.278.303.867.303h.318q.573 0 .9-.295.325-.295.325-.815v-2.384h1.01v2.306q0 .698-.278 1.196a1.8 1.8 0 0 1-.787.76q-.501.265-1.17.265zm-.517-3.35v-.884H6.47v.885z"
+                          />
+                          <rect
+                            width="19"
+                            height="19"
+                            x="0.5"
+                            y="0.5"
+                            stroke="#C6C6C6"
+                            rx="1.5"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        class="price-1 w-auto h-full flex justify-center items-center py-2"
+                      >
+                        <span
+                          class="text-green-700 font-yekan text-[16px] font-semibold"
+                        >
+                          4,449,000
+                        </span>
+                      </div>
+                      <div
+                        class="price-2 w-auto h-full flex justify-center items-center py-2"
+                      >
+                        <span
+                          class="text-gray-400 line-through font-yekan font-semibold text-[14px]"
+                        >
+                          9,950,000
+                        </span>
+                      </div>
+                    </div>
+                    <!-- text-2 of card end -->
+                  </div>
+                </div>
+                <!-- card-2 end -->
+                <!-- card-3 start -->
+                <div class="swiper-slide card-body">
+                  <!-- sale simbol start -->
+                  <div
+                    class="sale-offer left-5 top-4 w-14 h-8 pointer-events-none rounded-full absolute flex justify-center items-center back-orange z-10"
+                  >
+                    <span class="text-[16px] font-yekan"> 50% </span>
+                  </div>
+                  <!-- sale simbol end -->
+                  <!-- باکس برای (باقیمانده محصوصلات) شروع  -->
+                  <div
+                    class="box-of-products absolute z-10 left-1/2 top-64 -translate-x-1/2 flex flex-row-reverse items-center justify-center gap-2 rounded-md back-orange px-2 py-2 text-nowrap pointer-events-none w-[90%]"
+                  >
+                    <!-- text start  -->
+                    <span
+                      class="text-of-numbers text-white font-yekan text-[16px]"
+                    >
+                      باقی مانده N عدد
+                    </span>
+                    <!-- text end -->
+
+                    <!-- icon of numbers start -->
+                    <div class="icon-of-numbers w-6 h-6">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                      >
+                        <g
+                          stroke="#fff"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          clip-path="url(#stock-left-clock_svg__a)"
+                        >
+                          <path d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18"></path>
+                          <path
+                            d="M12 13.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3M17.924 10.076c.197.606.306 1.252.306 1.924M13.924 6.076A6.2 6.2 0 0 0 12 5.769 6.23 6.23 0 0 0 5.769 12M13.06 10.939l3.345-3.345"
+                          ></path>
+                        </g>
+                        <defs>
+                          <clipPath id="stock-left-clock_svg__a">
+                            <path fill="#fff" d="M0 0h24v24H0z"></path>
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </div>
+                    <!-- icon of numbers end  -->
+                  </div>
+                  <!-- باکس برای باقیمانده محصوصلات پایان -->
+                  <!-- card 1 start -->
+                  <div class="swiper-slide">
+                    <!-- pic of card start  -->
+                    <div
+                      class="pic-of-slider group w-full h-[305px] rounded-xl overflow-hidden relative"
+                    >
+                      <img
+                        class="opacity-100 group-hover:opacity-0 absolute transition-opacity duration-100 top-100 left-0 w-full"
+                        src="./src/pics/body/sliders/amazing slider/pair-1/imgi_1169_574711.jpg"
+                        alt="#"
+                      />
+                      <img
+                        class="opacity-0 group-hover:opacity-100 transition-opacity duration-100 absolute top-100 left-0 w-full"
+                        src="./src/pics/body/sliders/amazing slider/pair-1/imgi_1172_574711.jpg"
+                        alt="#"
+                      />
+                    </div>
+                    <!-- pic of card end -->
+                    <!-- text of card start -->
+                    <div
+                      class="text-of-slider w-full h-[23px] px-2 mt-1 truncate"
+                    >
+                      <span class="font-yekan text-[14px] text-black">
+                        شلوار جین مردانه سوپردرای مدل M17A42403C
+                      </span>
+                    </div>
+                    <!-- text of card end -->
+                    <!-- text-2 of card start -->
+
+                    <div
+                      class="text-price-slider w-full h-[26px] mt-1 flex flex-row-reverse justify-end px-4 gap-2 items-center"
+                    >
+                      <div class="icon-toman">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="20"
+                          height="20"
+                          fill="none"
+                        >
+                          <path
+                            fill="#000"
+                            d="M16.065 6.805q0 .66-.398 1.042-.39.375-1.058.374H6.33q-.079 0-.079-.509 0-.549.08-.549h8.28a.47.47 0 0 0 .318-.103.38.38 0 0 0 .127-.303V5.484h1.01zm.191-3.055v.907h-2.244V3.75z"
+                          />
+                          <path
+                            fill="#000"
+                            d="M6.903 7.828q0 1.013-.54 1.592-.534.58-1.47.58H3.75V8.972h1.206q.456 0 .71-.224.255-.216.256-.595H5.38q-.835 0-1.198-.348-.356-.348-.356-1.105 0-.495.193-.88.195-.388.541-.604Q4.916 5 5.381 5q.711 0 1.112.464.41.463.41 1.283zM4.801 6.662q0 .246.131.363.14.108.487.108h.503V6.73q0-.37-.147-.564a.5.5 0 0 0-.425-.193.49.49 0 0 0-.41.193q-.14.185-.139.495M12.647 15.218q.223 0 .31-.086.096-.085.096-.28v-.217q0-.753.438-1.188.445-.442 1.2-.442.758 0 1.154.427.406.42.406 1.21 0 .762-.421 1.189-.422.42-1.178.42-.398 0-.66-.094a.83.83 0 0 1-.39-.28.9.9 0 0 1-.382.288q-.223.085-.573.085h-.207q-.08 0-.08-.497 0-.536.08-.536zm2.602-.575q0-.652-.597-.652t-.597.652q0 .279.144.435.15.147.453.147.302 0 .446-.14.15-.147.15-.442"
+                          />
+                          <path
+                            fill="#000"
+                            d="M12.436 15.217q.08 0 .08.536 0 .319-.024.412-.024.084-.056.085h-1.193q-.08 0-.08-.497 0-.536.08-.536z"
+                          />
+                          <path
+                            fill="#000"
+                            d="M11.24 15.217q.04 0 .056.101.024.102.024.435 0 .31-.024.404-.016.093-.056.093h-.286q-.668 0-1.019-.373-.342-.38-.342-1.079V11.25h1.019v3.478q0 .249.095.373.104.117.318.116zM5.906 16.239q-1.035 0-1.6-.583-.556-.574-.556-1.615V12.49h1.01v1.53q0 .59.279.884.278.303.867.303h.318q.573 0 .9-.295.325-.295.325-.815v-2.384h1.01v2.306q0 .698-.278 1.196a1.8 1.8 0 0 1-.787.76q-.501.265-1.17.265zm-.517-3.35v-.884H6.47v.885z"
+                          />
+                          <rect
+                            width="19"
+                            height="19"
+                            x="0.5"
+                            y="0.5"
+                            stroke="#C6C6C6"
+                            rx="1.5"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        class="price-1 w-auto h-full flex justify-center items-center py-2"
+                      >
+                        <span
+                          class="text-green-700 font-yekan text-[16px] font-semibold"
+                        >
+                          4,449,000
+                        </span>
+                      </div>
+                      <div
+                        class="price-2 w-auto h-full flex justify-center items-center py-2"
+                      >
+                        <span
+                          class="text-gray-400 line-through font-yekan font-semibold text-[14px]"
+                        >
+                          9,950,000
+                        </span>
+                      </div>
+                    </div>
+                    <!-- text-2 of card end -->
+                  </div>
+                </div>
+                <!-- card-3 end -->
+                <!-- card-4 start -->
+                <div class="swiper-slide card-body">
+                  <!-- sale simbol start -->
+                  <div
+                    class="sale-offer left-5 top-4 w-14 h-8 pointer-events-none rounded-full absolute flex justify-center items-center back-orange z-10"
+                  >
+                    <span class="text-[16px] font-yekan"> 50% </span>
+                  </div>
+                  <!-- sale simbol end -->
+                  <!-- باکس برای (باقیمانده محصوصلات) شروع  -->
+                  <div
+                    class="box-of-products absolute z-10 left-1/2 top-64 -translate-x-1/2 flex flex-row-reverse items-center justify-center gap-2 rounded-md back-orange px-2 py-2 text-nowrap pointer-events-none w-[90%]"
+                  >
+                    <!-- text start  -->
+                    <span
+                      class="text-of-numbers text-white font-yekan text-[16px]"
+                    >
+                      باقی مانده N عدد
+                    </span>
+                    <!-- text end -->
+
+                    <!-- icon of numbers start -->
+                    <div class="icon-of-numbers w-6 h-6">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                      >
+                        <g
+                          stroke="#fff"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          clip-path="url(#stock-left-clock_svg__a)"
+                        >
+                          <path d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18"></path>
+                          <path
+                            d="M12 13.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3M17.924 10.076c.197.606.306 1.252.306 1.924M13.924 6.076A6.2 6.2 0 0 0 12 5.769 6.23 6.23 0 0 0 5.769 12M13.06 10.939l3.345-3.345"
+                          ></path>
+                        </g>
+                        <defs>
+                          <clipPath id="stock-left-clock_svg__a">
+                            <path fill="#fff" d="M0 0h24v24H0z"></path>
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </div>
+                    <!-- icon of numbers end  -->
+                  </div>
+                  <!-- باکس برای باقیمانده محصوصلات پایان -->
+                  <!-- card 1 start -->
+                  <div class="swiper-slide">
+                    <!-- pic of card start  -->
+                    <div
+                      class="pic-of-slider group w-full h-[305px] rounded-xl overflow-hidden relative"
+                    >
+                      <img
+                        class="opacity-100 group-hover:opacity-0 absolute transition-opacity duration-100 top-100 left-0 w-full"
+                        src="./src/pics/body/sliders/amazing slider/pair-1/imgi_1169_574711.jpg"
+                        alt="#"
+                      />
+                      <img
+                        class="opacity-0 group-hover:opacity-100 transition-opacity duration-100 absolute top-100 left-0 w-full"
+                        src="./src/pics/body/sliders/amazing slider/pair-1/imgi_1172_574711.jpg"
+                        alt="#"
+                      />
+                    </div>
+                    <!-- pic of card end -->
+                    <!-- text of card start -->
+                    <div
+                      class="text-of-slider w-full h-[23px] px-2 mt-1 truncate"
+                    >
+                      <span class="font-yekan text-[14px] text-black">
+                        شلوار جین مردانه سوپردرای مدل M17A42403C
+                      </span>
+                    </div>
+                    <!-- text of card end -->
+                    <!-- text-2 of card start -->
+
+                    <div
+                      class="text-price-slider w-full h-[26px] mt-1 flex flex-row-reverse justify-end px-4 gap-2 items-center"
+                    >
+                      <div class="icon-toman">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="20"
+                          height="20"
+                          fill="none"
+                        >
+                          <path
+                            fill="#000"
+                            d="M16.065 6.805q0 .66-.398 1.042-.39.375-1.058.374H6.33q-.079 0-.079-.509 0-.549.08-.549h8.28a.47.47 0 0 0 .318-.103.38.38 0 0 0 .127-.303V5.484h1.01zm.191-3.055v.907h-2.244V3.75z"
+                          />
+                          <path
+                            fill="#000"
+                            d="M6.903 7.828q0 1.013-.54 1.592-.534.58-1.47.58H3.75V8.972h1.206q.456 0 .71-.224.255-.216.256-.595H5.38q-.835 0-1.198-.348-.356-.348-.356-1.105 0-.495.193-.88.195-.388.541-.604Q4.916 5 5.381 5q.711 0 1.112.464.41.463.41 1.283zM4.801 6.662q0 .246.131.363.14.108.487.108h.503V6.73q0-.37-.147-.564a.5.5 0 0 0-.425-.193.49.49 0 0 0-.41.193q-.14.185-.139.495M12.647 15.218q.223 0 .31-.086.096-.085.096-.28v-.217q0-.753.438-1.188.445-.442 1.2-.442.758 0 1.154.427.406.42.406 1.21 0 .762-.421 1.189-.422.42-1.178.42-.398 0-.66-.094a.83.83 0 0 1-.39-.28.9.9 0 0 1-.382.288q-.223.085-.573.085h-.207q-.08 0-.08-.497 0-.536.08-.536zm2.602-.575q0-.652-.597-.652t-.597.652q0 .279.144.435.15.147.453.147.302 0 .446-.14.15-.147.15-.442"
+                          />
+                          <path
+                            fill="#000"
+                            d="M12.436 15.217q.08 0 .08.536 0 .319-.024.412-.024.084-.056.085h-1.193q-.08 0-.08-.497 0-.536.08-.536z"
+                          />
+                          <path
+                            fill="#000"
+                            d="M11.24 15.217q.04 0 .056.101.024.102.024.435 0 .31-.024.404-.016.093-.056.093h-.286q-.668 0-1.019-.373-.342-.38-.342-1.079V11.25h1.019v3.478q0 .249.095.373.104.117.318.116zM5.906 16.239q-1.035 0-1.6-.583-.556-.574-.556-1.615V12.49h1.01v1.53q0 .59.279.884.278.303.867.303h.318q.573 0 .9-.295.325-.295.325-.815v-2.384h1.01v2.306q0 .698-.278 1.196a1.8 1.8 0 0 1-.787.76q-.501.265-1.17.265zm-.517-3.35v-.884H6.47v.885z"
+                          />
+                          <rect
+                            width="19"
+                            height="19"
+                            x="0.5"
+                            y="0.5"
+                            stroke="#C6C6C6"
+                            rx="1.5"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        class="price-1 w-auto h-full flex justify-center items-center py-2"
+                      >
+                        <span
+                          class="text-green-700 font-yekan text-[16px] font-semibold"
+                        >
+                          4,449,000
+                        </span>
+                      </div>
+                      <div
+                        class="price-2 w-auto h-full flex justify-center items-center py-2"
+                      >
+                        <span
+                          class="text-gray-400 line-through font-yekan font-semibold text-[14px]"
+                        >
+                          9,950,000
+                        </span>
+                      </div>
+                    </div>
+                    <!-- text-2 of card end -->
+                  </div>
+                </div>
+                <!-- card-4 end -->
+                <!-- card-5 start -->
+                <div class="swiper-slide card-body">
+                  <!-- sale simbol start -->
+                  <div
+                    class="sale-offer left-5 top-4 w-14 h-8 pointer-events-none rounded-full absolute flex justify-center items-center back-orange z-10"
+                  >
+                    <span class="text-[16px] font-yekan"> 50% </span>
+                  </div>
+                  <!-- sale simbol end -->
+                  <!-- باکس برای (باقیمانده محصوصلات) شروع  -->
+                  <div
+                    class="box-of-products absolute z-10 left-1/2 top-64 -translate-x-1/2 flex flex-row-reverse items-center justify-center gap-2 rounded-md back-orange px-2 py-2 text-nowrap pointer-events-none w-[90%]"
+                  >
+                    <!-- text start  -->
+                    <span
+                      class="text-of-numbers text-white font-yekan text-[16px]"
+                    >
+                      باقی مانده N عدد
+                    </span>
+                    <!-- text end -->
+
+                    <!-- icon of numbers start -->
+                    <div class="icon-of-numbers w-6 h-6">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                      >
+                        <g
+                          stroke="#fff"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          clip-path="url(#stock-left-clock_svg__a)"
+                        >
+                          <path d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18"></path>
+                          <path
+                            d="M12 13.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3M17.924 10.076c.197.606.306 1.252.306 1.924M13.924 6.076A6.2 6.2 0 0 0 12 5.769 6.23 6.23 0 0 0 5.769 12M13.06 10.939l3.345-3.345"
+                          ></path>
+                        </g>
+                        <defs>
+                          <clipPath id="stock-left-clock_svg__a">
+                            <path fill="#fff" d="M0 0h24v24H0z"></path>
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </div>
+                    <!-- icon of numbers end  -->
+                  </div>
+                  <!-- باکس برای باقیمانده محصوصلات پایان -->
+                  <!-- card 1 start -->
+                  <div class="swiper-slide">
+                    <!-- pic of card start  -->
+                    <div
+                      class="pic-of-slider group w-full h-[305px] rounded-xl overflow-hidden relative"
+                    >
+                      <img
+                        class="opacity-100 group-hover:opacity-0 absolute transition-opacity duration-100 top-100 left-0 w-full"
+                        src="./src/pics/body/sliders/amazing slider/pair-1/imgi_1169_574711.jpg"
+                        alt="#"
+                      />
+                      <img
+                        class="opacity-0 group-hover:opacity-100 transition-opacity duration-100 absolute top-100 left-0 w-full"
+                        src="./src/pics/body/sliders/amazing slider/pair-1/imgi_1172_574711.jpg"
+                        alt="#"
+                      />
+                    </div>
+                    <!-- pic of card end -->
+                    <!-- text of card start -->
+                    <div
+                      class="text-of-slider w-full h-[23px] px-2 mt-1 truncate"
+                    >
+                      <span class="font-yekan text-[14px] text-black">
+                        شلوار جین مردانه سوپردرای مدل M17A42403C
+                      </span>
+                    </div>
+                    <!-- text of card end -->
+                    <!-- text-2 of card start -->
+
+                    <div
+                      class="text-price-slider w-full h-[26px] mt-1 flex flex-row-reverse justify-end px-4 gap-2 items-center"
+                    >
+                      <div class="icon-toman">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="20"
+                          height="20"
+                          fill="none"
+                        >
+                          <path
+                            fill="#000"
+                            d="M16.065 6.805q0 .66-.398 1.042-.39.375-1.058.374H6.33q-.079 0-.079-.509 0-.549.08-.549h8.28a.47.47 0 0 0 .318-.103.38.38 0 0 0 .127-.303V5.484h1.01zm.191-3.055v.907h-2.244V3.75z"
+                          />
+                          <path
+                            fill="#000"
+                            d="M6.903 7.828q0 1.013-.54 1.592-.534.58-1.47.58H3.75V8.972h1.206q.456 0 .71-.224.255-.216.256-.595H5.38q-.835 0-1.198-.348-.356-.348-.356-1.105 0-.495.193-.88.195-.388.541-.604Q4.916 5 5.381 5q.711 0 1.112.464.41.463.41 1.283zM4.801 6.662q0 .246.131.363.14.108.487.108h.503V6.73q0-.37-.147-.564a.5.5 0 0 0-.425-.193.49.49 0 0 0-.41.193q-.14.185-.139.495M12.647 15.218q.223 0 .31-.086.096-.085.096-.28v-.217q0-.753.438-1.188.445-.442 1.2-.442.758 0 1.154.427.406.42.406 1.21 0 .762-.421 1.189-.422.42-1.178.42-.398 0-.66-.094a.83.83 0 0 1-.39-.28.9.9 0 0 1-.382.288q-.223.085-.573.085h-.207q-.08 0-.08-.497 0-.536.08-.536zm2.602-.575q0-.652-.597-.652t-.597.652q0 .279.144.435.15.147.453.147.302 0 .446-.14.15-.147.15-.442"
+                          />
+                          <path
+                            fill="#000"
+                            d="M12.436 15.217q.08 0 .08.536 0 .319-.024.412-.024.084-.056.085h-1.193q-.08 0-.08-.497 0-.536.08-.536z"
+                          />
+                          <path
+                            fill="#000"
+                            d="M11.24 15.217q.04 0 .056.101.024.102.024.435 0 .31-.024.404-.016.093-.056.093h-.286q-.668 0-1.019-.373-.342-.38-.342-1.079V11.25h1.019v3.478q0 .249.095.373.104.117.318.116zM5.906 16.239q-1.035 0-1.6-.583-.556-.574-.556-1.615V12.49h1.01v1.53q0 .59.279.884.278.303.867.303h.318q.573 0 .9-.295.325-.295.325-.815v-2.384h1.01v2.306q0 .698-.278 1.196a1.8 1.8 0 0 1-.787.76q-.501.265-1.17.265zm-.517-3.35v-.884H6.47v.885z"
+                          />
+                          <rect
+                            width="19"
+                            height="19"
+                            x="0.5"
+                            y="0.5"
+                            stroke="#C6C6C6"
+                            rx="1.5"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        class="price-1 w-auto h-full flex justify-center items-center py-2"
+                      >
+                        <span
+                          class="text-green-700 font-yekan text-[16px] font-semibold"
+                        >
+                          4,449,000
+                        </span>
+                      </div>
+                      <div
+                        class="price-2 w-auto h-full flex justify-center items-center py-2"
+                      >
+                        <span
+                          class="text-gray-400 line-through font-yekan font-semibold text-[14px]"
+                        >
+                          9,950,000
+                        </span>
+                      </div>
+                    </div>
+                    <!-- text-2 of card end -->
+                  </div>
+                </div>
+                <!-- card-5 end -->
+                <!-- card-6 start -->
+                <div class="swiper-slide card-body">
+                  <!-- sale simbol start -->
+                  <div
+                    class="sale-offer left-5 top-4 w-14 h-8 pointer-events-none rounded-full absolute flex justify-center items-center back-orange z-10"
+                  >
+                    <span class="text-[16px] font-yekan"> 50% </span>
+                  </div>
+                  <!-- sale simbol end -->
+                  <!-- باکس برای (باقیمانده محصوصلات) شروع  -->
+                  <div
+                    class="box-of-products absolute z-10 left-1/2 top-64 -translate-x-1/2 flex flex-row-reverse items-center justify-center gap-2 rounded-md back-orange px-2 py-2 text-nowrap pointer-events-none w-[90%]"
+                  >
+                    <!-- text start  -->
+                    <span
+                      class="text-of-numbers text-white font-yekan text-[16px]"
+                    >
+                      باقی مانده N عدد
+                    </span>
+                    <!-- text end -->
+
+                    <!-- icon of numbers start -->
+                    <div class="icon-of-numbers w-6 h-6">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                      >
+                        <g
+                          stroke="#fff"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          clip-path="url(#stock-left-clock_svg__a)"
+                        >
+                          <path d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18"></path>
+                          <path
+                            d="M12 13.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3M17.924 10.076c.197.606.306 1.252.306 1.924M13.924 6.076A6.2 6.2 0 0 0 12 5.769 6.23 6.23 0 0 0 5.769 12M13.06 10.939l3.345-3.345"
+                          ></path>
+                        </g>
+                        <defs>
+                          <clipPath id="stock-left-clock_svg__a">
+                            <path fill="#fff" d="M0 0h24v24H0z"></path>
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </div>
+                    <!-- icon of numbers end  -->
+                  </div>
+                  <!-- باکس برای باقیمانده محصوصلات پایان -->
+                  <!-- card 1 start -->
+                  <div class="swiper-slide">
+                    <!-- pic of card start  -->
+                    <div
+                      class="pic-of-slider group w-full h-[305px] rounded-xl overflow-hidden relative"
+                    >
+                      <img
+                        class="opacity-100 group-hover:opacity-0 absolute transition-opacity duration-100 top-100 left-0 w-full"
+                        src="./src/pics/body/sliders/amazing slider/pair-1/imgi_1169_574711.jpg"
+                        alt="#"
+                      />
+                      <img
+                        class="opacity-0 group-hover:opacity-100 transition-opacity duration-100 absolute top-100 left-0 w-full"
+                        src="./src/pics/body/sliders/amazing slider/pair-1/imgi_1172_574711.jpg"
+                        alt="#"
+                      />
+                    </div>
+                    <!-- pic of card end -->
+                    <!-- text of card start -->
+                    <div
+                      class="text-of-slider w-full h-[23px] px-2 mt-1 truncate"
+                    >
+                      <span class="font-yekan text-[14px] text-black">
+                        شلوار جین مردانه سوپردرای مدل M17A42403C
+                      </span>
+                    </div>
+                    <!-- text of card end -->
+                    <!-- text-2 of card start -->
+
+                    <div
+                      class="text-price-slider w-full h-[26px] mt-1 flex flex-row-reverse justify-end px-4 gap-2 items-center"
+                    >
+                      <div class="icon-toman">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="20"
+                          height="20"
+                          fill="none"
+                        >
+                          <path
+                            fill="#000"
+                            d="M16.065 6.805q0 .66-.398 1.042-.39.375-1.058.374H6.33q-.079 0-.079-.509 0-.549.08-.549h8.28a.47.47 0 0 0 .318-.103.38.38 0 0 0 .127-.303V5.484h1.01zm.191-3.055v.907h-2.244V3.75z"
+                          />
+                          <path
+                            fill="#000"
+                            d="M6.903 7.828q0 1.013-.54 1.592-.534.58-1.47.58H3.75V8.972h1.206q.456 0 .71-.224.255-.216.256-.595H5.38q-.835 0-1.198-.348-.356-.348-.356-1.105 0-.495.193-.88.195-.388.541-.604Q4.916 5 5.381 5q.711 0 1.112.464.41.463.41 1.283zM4.801 6.662q0 .246.131.363.14.108.487.108h.503V6.73q0-.37-.147-.564a.5.5 0 0 0-.425-.193.49.49 0 0 0-.41.193q-.14.185-.139.495M12.647 15.218q.223 0 .31-.086.096-.085.096-.28v-.217q0-.753.438-1.188.445-.442 1.2-.442.758 0 1.154.427.406.42.406 1.21 0 .762-.421 1.189-.422.42-1.178.42-.398 0-.66-.094a.83.83 0 0 1-.39-.28.9.9 0 0 1-.382.288q-.223.085-.573.085h-.207q-.08 0-.08-.497 0-.536.08-.536zm2.602-.575q0-.652-.597-.652t-.597.652q0 .279.144.435.15.147.453.147.302 0 .446-.14.15-.147.15-.442"
+                          />
+                          <path
+                            fill="#000"
+                            d="M12.436 15.217q.08 0 .08.536 0 .319-.024.412-.024.084-.056.085h-1.193q-.08 0-.08-.497 0-.536.08-.536z"
+                          />
+                          <path
+                            fill="#000"
+                            d="M11.24 15.217q.04 0 .056.101.024.102.024.435 0 .31-.024.404-.016.093-.056.093h-.286q-.668 0-1.019-.373-.342-.38-.342-1.079V11.25h1.019v3.478q0 .249.095.373.104.117.318.116zM5.906 16.239q-1.035 0-1.6-.583-.556-.574-.556-1.615V12.49h1.01v1.53q0 .59.279.884.278.303.867.303h.318q.573 0 .9-.295.325-.295.325-.815v-2.384h1.01v2.306q0 .698-.278 1.196a1.8 1.8 0 0 1-.787.76q-.501.265-1.17.265zm-.517-3.35v-.884H6.47v.885z"
+                          />
+                          <rect
+                            width="19"
+                            height="19"
+                            x="0.5"
+                            y="0.5"
+                            stroke="#C6C6C6"
+                            rx="1.5"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        class="price-1 w-auto h-full flex justify-center items-center py-2"
+                      >
+                        <span
+                          class="text-green-700 font-yekan text-[16px] font-semibold"
+                        >
+                          4,449,000
+                        </span>
+                      </div>
+                      <div
+                        class="price-2 w-auto h-full flex justify-center items-center py-2"
+                      >
+                        <span
+                          class="text-gray-400 line-through font-yekan font-semibold text-[14px]"
+                        >
+                          9,950,000
+                        </span>
+                      </div>
+                    </div>
+                    <!-- text-2 of card end -->
+                  </div>
+                </div>
+                <!-- card-6 end -->
+                <!-- card-7 start -->
+                <div class="swiper-slide card-body">
+                  <!-- sale simbol start -->
+                  <div
+                    class="sale-offer left-5 top-4 w-14 h-8 pointer-events-none rounded-full absolute flex justify-center items-center back-orange z-10"
+                  >
+                    <span class="text-[16px] font-yekan"> 50% </span>
+                  </div>
+                  <!-- sale simbol end -->
+                  <!-- باکس برای (باقیمانده محصوصلات) شروع  -->
+                  <div
+                    class="box-of-products absolute z-10 left-1/2 top-64 -translate-x-1/2 flex flex-row-reverse items-center justify-center gap-2 rounded-md back-orange px-2 py-2 text-nowrap pointer-events-none w-[90%]"
+                  >
+                    <!-- text start  -->
+                    <span
+                      class="text-of-numbers text-white font-yekan text-[16px]"
+                    >
+                      باقی مانده N عدد
+                    </span>
+                    <!-- text end -->
+
+                    <!-- icon of numbers start -->
+                    <div class="icon-of-numbers w-6 h-6">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                      >
+                        <g
+                          stroke="#fff"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          clip-path="url(#stock-left-clock_svg__a)"
+                        >
+                          <path d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18"></path>
+                          <path
+                            d="M12 13.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3M17.924 10.076c.197.606.306 1.252.306 1.924M13.924 6.076A6.2 6.2 0 0 0 12 5.769 6.23 6.23 0 0 0 5.769 12M13.06 10.939l3.345-3.345"
+                          ></path>
+                        </g>
+                        <defs>
+                          <clipPath id="stock-left-clock_svg__a">
+                            <path fill="#fff" d="M0 0h24v24H0z"></path>
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </div>
+                    <!-- icon of numbers end  -->
+                  </div>
+                  <!-- باکس برای باقیمانده محصوصلات پایان -->
+                  <!-- card 1 start -->
+                  <div class="swiper-slide">
+                    <!-- pic of card start  -->
+                    <div
+                      class="pic-of-slider group w-full h-[305px] rounded-xl overflow-hidden relative"
+                    >
+                      <img
+                        class="opacity-100 group-hover:opacity-0 absolute transition-opacity duration-100 top-100 left-0 w-full"
+                        src="./src/pics/body/sliders/amazing slider/pair-1/imgi_1169_574711.jpg"
+                        alt="#"
+                      />
+                      <img
+                        class="opacity-0 group-hover:opacity-100 transition-opacity duration-100 absolute top-100 left-0 w-full"
+                        src="./src/pics/body/sliders/amazing slider/pair-1/imgi_1172_574711.jpg"
+                        alt="#"
+                      />
+                    </div>
+                    <!-- pic of card end -->
+                    <!-- text of card start -->
+                    <div
+                      class="text-of-slider w-full h-[23px] px-2 mt-1 truncate"
+                    >
+                      <span class="font-yekan text-[14px] text-black">
+                        شلوار جین مردانه سوپردرای مدل M17A42403C
+                      </span>
+                    </div>
+                    <!-- text of card end -->
+                    <!-- text-2 of card start -->
+
+                    <div
+                      class="text-price-slider w-full h-[26px] mt-1 flex flex-row-reverse justify-end px-4 gap-2 items-center"
+                    >
+                      <div class="icon-toman">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="20"
+                          height="20"
+                          fill="none"
+                        >
+                          <path
+                            fill="#000"
+                            d="M16.065 6.805q0 .66-.398 1.042-.39.375-1.058.374H6.33q-.079 0-.079-.509 0-.549.08-.549h8.28a.47.47 0 0 0 .318-.103.38.38 0 0 0 .127-.303V5.484h1.01zm.191-3.055v.907h-2.244V3.75z"
+                          />
+                          <path
+                            fill="#000"
+                            d="M6.903 7.828q0 1.013-.54 1.592-.534.58-1.47.58H3.75V8.972h1.206q.456 0 .71-.224.255-.216.256-.595H5.38q-.835 0-1.198-.348-.356-.348-.356-1.105 0-.495.193-.88.195-.388.541-.604Q4.916 5 5.381 5q.711 0 1.112.464.41.463.41 1.283zM4.801 6.662q0 .246.131.363.14.108.487.108h.503V6.73q0-.37-.147-.564a.5.5 0 0 0-.425-.193.49.49 0 0 0-.41.193q-.14.185-.139.495M12.647 15.218q.223 0 .31-.086.096-.085.096-.28v-.217q0-.753.438-1.188.445-.442 1.2-.442.758 0 1.154.427.406.42.406 1.21 0 .762-.421 1.189-.422.42-1.178.42-.398 0-.66-.094a.83.83 0 0 1-.39-.28.9.9 0 0 1-.382.288q-.223.085-.573.085h-.207q-.08 0-.08-.497 0-.536.08-.536zm2.602-.575q0-.652-.597-.652t-.597.652q0 .279.144.435.15.147.453.147.302 0 .446-.14.15-.147.15-.442"
+                          />
+                          <path
+                            fill="#000"
+                            d="M12.436 15.217q.08 0 .08.536 0 .319-.024.412-.024.084-.056.085h-1.193q-.08 0-.08-.497 0-.536.08-.536z"
+                          />
+                          <path
+                            fill="#000"
+                            d="M11.24 15.217q.04 0 .056.101.024.102.024.435 0 .31-.024.404-.016.093-.056.093h-.286q-.668 0-1.019-.373-.342-.38-.342-1.079V11.25h1.019v3.478q0 .249.095.373.104.117.318.116zM5.906 16.239q-1.035 0-1.6-.583-.556-.574-.556-1.615V12.49h1.01v1.53q0 .59.279.884.278.303.867.303h.318q.573 0 .9-.295.325-.295.325-.815v-2.384h1.01v2.306q0 .698-.278 1.196a1.8 1.8 0 0 1-.787.76q-.501.265-1.17.265zm-.517-3.35v-.884H6.47v.885z"
+                          />
+                          <rect
+                            width="19"
+                            height="19"
+                            x="0.5"
+                            y="0.5"
+                            stroke="#C6C6C6"
+                            rx="1.5"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        class="price-1 w-auto h-full flex justify-center items-center py-2"
+                      >
+                        <span
+                          class="text-green-700 font-yekan text-[16px] font-semibold"
+                        >
+                          4,449,000
+                        </span>
+                      </div>
+                      <div
+                        class="price-2 w-auto h-full flex justify-center items-center py-2"
+                      >
+                        <span
+                          class="text-gray-400 line-through font-yekan font-semibold text-[14px]"
+                        >
+                          9,950,000
+                        </span>
+                      </div>
+                    </div>
+                    <!-- text-2 of card end -->
+                  </div>
+                </div>
+                <!-- card-7 end -->
+                <!-- card-8 start -->
+                <div class="swiper-slide card-body">
+                  <!-- sale simbol start -->
+                  <div
+                    class="sale-offer left-5 top-4 w-14 h-8 pointer-events-none rounded-full absolute flex justify-center items-center back-orange z-10"
+                  >
+                    <span class="text-[16px] font-yekan"> 50% </span>
+                  </div>
+                  <!-- sale simbol end -->
+                  <!-- باکس برای (باقیمانده محصوصلات) شروع  -->
+                  <div
+                    class="box-of-products absolute z-10 left-1/2 top-64 -translate-x-1/2 flex flex-row-reverse items-center justify-center gap-2 rounded-md back-orange px-2 py-2 text-nowrap pointer-events-none w-[90%]"
+                  >
+                    <!-- text start  -->
+                    <span
+                      class="text-of-numbers text-white font-yekan text-[16px]"
+                    >
+                      باقی مانده N عدد
+                    </span>
+                    <!-- text end -->
+
+                    <!-- icon of numbers start -->
+                    <div class="icon-of-numbers w-6 h-6">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                      >
+                        <g
+                          stroke="#fff"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          clip-path="url(#stock-left-clock_svg__a)"
+                        >
+                          <path d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18"></path>
+                          <path
+                            d="M12 13.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3M17.924 10.076c.197.606.306 1.252.306 1.924M13.924 6.076A6.2 6.2 0 0 0 12 5.769 6.23 6.23 0 0 0 5.769 12M13.06 10.939l3.345-3.345"
+                          ></path>
+                        </g>
+                        <defs>
+                          <clipPath id="stock-left-clock_svg__a">
+                            <path fill="#fff" d="M0 0h24v24H0z"></path>
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </div>
+                    <!-- icon of numbers end  -->
+                  </div>
+                  <!-- باکس برای باقیمانده محصوصلات پایان -->
+                  <!-- card 1 start -->
+                  <div class="swiper-slide">
+                    <!-- pic of card start  -->
+                    <div
+                      class="pic-of-slider group w-full h-[305px] rounded-xl overflow-hidden relative"
+                    >
+                      <img
+                        class="opacity-100 group-hover:opacity-0 absolute transition-opacity duration-100 top-100 left-0 w-full"
+                        src="./src/pics/body/sliders/amazing slider/pair-1/imgi_1169_574711.jpg"
+                        alt="#"
+                      />
+                      <img
+                        class="opacity-0 group-hover:opacity-100 transition-opacity duration-100 absolute top-100 left-0 w-full"
+                        src="./src/pics/body/sliders/amazing slider/pair-1/imgi_1172_574711.jpg"
+                        alt="#"
+                      />
+                    </div>
+                    <!-- pic of card end -->
+                    <!-- text of card start -->
+                    <div
+                      class="text-of-slider w-full h-[23px] px-2 mt-1 truncate"
+                    >
+                      <span class="font-yekan text-[14px] text-black">
+                        شلوار جین مردانه سوپردرای مدل M17A42403C
+                      </span>
+                    </div>
+                    <!-- text of card end -->
+                    <!-- text-2 of card start -->
+
+                    <div
+                      class="text-price-slider w-full h-[26px] mt-1 flex flex-row-reverse justify-end px-4 gap-2 items-center"
+                    >
+                      <div class="icon-toman">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="20"
+                          height="20"
+                          fill="none"
+                        >
+                          <path
+                            fill="#000"
+                            d="M16.065 6.805q0 .66-.398 1.042-.39.375-1.058.374H6.33q-.079 0-.079-.509 0-.549.08-.549h8.28a.47.47 0 0 0 .318-.103.38.38 0 0 0 .127-.303V5.484h1.01zm.191-3.055v.907h-2.244V3.75z"
+                          />
+                          <path
+                            fill="#000"
+                            d="M6.903 7.828q0 1.013-.54 1.592-.534.58-1.47.58H3.75V8.972h1.206q.456 0 .71-.224.255-.216.256-.595H5.38q-.835 0-1.198-.348-.356-.348-.356-1.105 0-.495.193-.88.195-.388.541-.604Q4.916 5 5.381 5q.711 0 1.112.464.41.463.41 1.283zM4.801 6.662q0 .246.131.363.14.108.487.108h.503V6.73q0-.37-.147-.564a.5.5 0 0 0-.425-.193.49.49 0 0 0-.41.193q-.14.185-.139.495M12.647 15.218q.223 0 .31-.086.096-.085.096-.28v-.217q0-.753.438-1.188.445-.442 1.2-.442.758 0 1.154.427.406.42.406 1.21 0 .762-.421 1.189-.422.42-1.178.42-.398 0-.66-.094a.83.83 0 0 1-.39-.28.9.9 0 0 1-.382.288q-.223.085-.573.085h-.207q-.08 0-.08-.497 0-.536.08-.536zm2.602-.575q0-.652-.597-.652t-.597.652q0 .279.144.435.15.147.453.147.302 0 .446-.14.15-.147.15-.442"
+                          />
+                          <path
+                            fill="#000"
+                            d="M12.436 15.217q.08 0 .08.536 0 .319-.024.412-.024.084-.056.085h-1.193q-.08 0-.08-.497 0-.536.08-.536z"
+                          />
+                          <path
+                            fill="#000"
+                            d="M11.24 15.217q.04 0 .056.101.024.102.024.435 0 .31-.024.404-.016.093-.056.093h-.286q-.668 0-1.019-.373-.342-.38-.342-1.079V11.25h1.019v3.478q0 .249.095.373.104.117.318.116zM5.906 16.239q-1.035 0-1.6-.583-.556-.574-.556-1.615V12.49h1.01v1.53q0 .59.279.884.278.303.867.303h.318q.573 0 .9-.295.325-.295.325-.815v-2.384h1.01v2.306q0 .698-.278 1.196a1.8 1.8 0 0 1-.787.76q-.501.265-1.17.265zm-.517-3.35v-.884H6.47v.885z"
+                          />
+                          <rect
+                            width="19"
+                            height="19"
+                            x="0.5"
+                            y="0.5"
+                            stroke="#C6C6C6"
+                            rx="1.5"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        class="price-1 w-auto h-full flex justify-center items-center py-2"
+                      >
+                        <span
+                          class="text-green-700 font-yekan text-[16px] font-semibold"
+                        >
+                          4,449,000
+                        </span>
+                      </div>
+                      <div
+                        class="price-2 w-auto h-full flex justify-center items-center py-2"
+                      >
+                        <span
+                          class="text-gray-400 line-through font-yekan font-semibold text-[14px]"
+                        >
+                          9,950,000
+                        </span>
+                      </div>
+                    </div>
+                    <!-- text-2 of card end -->
+                  </div>
+                </div>
+                <!-- card-8 end -->
+                <!-- card-9 start -->
+                <div class="swiper-slide card-body">
+                  <!-- sale simbol start -->
+                  <div
+                    class="sale-offer left-5 top-4 w-14 h-8 pointer-events-none rounded-full absolute flex justify-center items-center back-orange z-10"
+                  >
+                    <span class="text-[16px] font-yekan"> 50% </span>
+                  </div>
+                  <!-- sale simbol end -->
+                  <!-- باکس برای (باقیمانده محصوصلات) شروع  -->
+                  <div
+                    class="box-of-products absolute z-10 left-1/2 top-64 -translate-x-1/2 flex flex-row-reverse items-center justify-center gap-2 rounded-md back-orange px-2 py-2 text-nowrap pointer-events-none w-[90%]"
+                  >
+                    <!-- text start  -->
+                    <span
+                      class="text-of-numbers text-white font-yekan text-[16px]"
+                    >
+                      باقی مانده N عدد
+                    </span>
+                    <!-- text end -->
+
+                    <!-- icon of numbers start -->
+                    <div class="icon-of-numbers w-6 h-6">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                      >
+                        <g
+                          stroke="#fff"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          clip-path="url(#stock-left-clock_svg__a)"
+                        >
+                          <path d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18"></path>
+                          <path
+                            d="M12 13.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3M17.924 10.076c.197.606.306 1.252.306 1.924M13.924 6.076A6.2 6.2 0 0 0 12 5.769 6.23 6.23 0 0 0 5.769 12M13.06 10.939l3.345-3.345"
+                          ></path>
+                        </g>
+                        <defs>
+                          <clipPath id="stock-left-clock_svg__a">
+                            <path fill="#fff" d="M0 0h24v24H0z"></path>
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </div>
+                    <!-- icon of numbers end  -->
+                  </div>
+                  <!-- باکس برای باقیمانده محصوصلات پایان -->
+                  <!-- card 1 start -->
+                  <div class="swiper-slide">
+                    <!-- pic of card start  -->
+                    <div
+                      class="pic-of-slider group w-full h-[305px] rounded-xl overflow-hidden relative"
+                    >
+                      <img
+                        class="opacity-100 group-hover:opacity-0 absolute transition-opacity duration-100 top-100 left-0 w-full"
+                        src="./src/pics/body/sliders/amazing slider/pair-1/imgi_1169_574711.jpg"
+                        alt="#"
+                      />
+                      <img
+                        class="opacity-0 group-hover:opacity-100 transition-opacity duration-100 absolute top-100 left-0 w-full"
+                        src="./src/pics/body/sliders/amazing slider/pair-1/imgi_1172_574711.jpg"
+                        alt="#"
+                      />
+                    </div>
+                    <!-- pic of card end -->
+                    <!-- text of card start -->
+                    <div
+                      class="text-of-slider w-full h-[23px] px-2 mt-1 truncate"
+                    >
+                      <span class="font-yekan text-[14px] text-black">
+                        شلوار جین مردانه سوپردرای مدل M17A42403C
+                      </span>
+                    </div>
+                    <!-- text of card end -->
+                    <!-- text-2 of card start -->
+
+                    <div
+                      class="text-price-slider w-full h-[26px] mt-1 flex flex-row-reverse justify-end px-4 gap-2 items-center"
+                    >
+                      <div class="icon-toman">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="20"
+                          height="20"
+                          fill="none"
+                        >
+                          <path
+                            fill="#000"
+                            d="M16.065 6.805q0 .66-.398 1.042-.39.375-1.058.374H6.33q-.079 0-.079-.509 0-.549.08-.549h8.28a.47.47 0 0 0 .318-.103.38.38 0 0 0 .127-.303V5.484h1.01zm.191-3.055v.907h-2.244V3.75z"
+                          />
+                          <path
+                            fill="#000"
+                            d="M6.903 7.828q0 1.013-.54 1.592-.534.58-1.47.58H3.75V8.972h1.206q.456 0 .71-.224.255-.216.256-.595H5.38q-.835 0-1.198-.348-.356-.348-.356-1.105 0-.495.193-.88.195-.388.541-.604Q4.916 5 5.381 5q.711 0 1.112.464.41.463.41 1.283zM4.801 6.662q0 .246.131.363.14.108.487.108h.503V6.73q0-.37-.147-.564a.5.5 0 0 0-.425-.193.49.49 0 0 0-.41.193q-.14.185-.139.495M12.647 15.218q.223 0 .31-.086.096-.085.096-.28v-.217q0-.753.438-1.188.445-.442 1.2-.442.758 0 1.154.427.406.42.406 1.21 0 .762-.421 1.189-.422.42-1.178.42-.398 0-.66-.094a.83.83 0 0 1-.39-.28.9.9 0 0 1-.382.288q-.223.085-.573.085h-.207q-.08 0-.08-.497 0-.536.08-.536zm2.602-.575q0-.652-.597-.652t-.597.652q0 .279.144.435.15.147.453.147.302 0 .446-.14.15-.147.15-.442"
+                          />
+                          <path
+                            fill="#000"
+                            d="M12.436 15.217q.08 0 .08.536 0 .319-.024.412-.024.084-.056.085h-1.193q-.08 0-.08-.497 0-.536.08-.536z"
+                          />
+                          <path
+                            fill="#000"
+                            d="M11.24 15.217q.04 0 .056.101.024.102.024.435 0 .31-.024.404-.016.093-.056.093h-.286q-.668 0-1.019-.373-.342-.38-.342-1.079V11.25h1.019v3.478q0 .249.095.373.104.117.318.116zM5.906 16.239q-1.035 0-1.6-.583-.556-.574-.556-1.615V12.49h1.01v1.53q0 .59.279.884.278.303.867.303h.318q.573 0 .9-.295.325-.295.325-.815v-2.384h1.01v2.306q0 .698-.278 1.196a1.8 1.8 0 0 1-.787.76q-.501.265-1.17.265zm-.517-3.35v-.884H6.47v.885z"
+                          />
+                          <rect
+                            width="19"
+                            height="19"
+                            x="0.5"
+                            y="0.5"
+                            stroke="#C6C6C6"
+                            rx="1.5"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        class="price-1 w-auto h-full flex justify-center items-center py-2"
+                      >
+                        <span
+                          class="text-green-700 font-yekan text-[16px] font-semibold"
+                        >
+                          4,449,000
+                        </span>
+                      </div>
+                      <div
+                        class="price-2 w-auto h-full flex justify-center items-center py-2"
+                      >
+                        <span
+                          class="text-gray-400 line-through font-yekan font-semibold text-[14px]"
+                        >
+                          9,950,000
+                        </span>
+                      </div>
+                    </div>
+                    <!-- text-2 of card end -->
+                  </div>
+                </div>
+                <!-- card-9 end -->
               </div>
+              <!-- body of cards end -->
+              <!-- navigation of slider 2 start amazing part start -->
+              <!-- nav next start -->
               <div
-                class="swiper-button-next bg-black w-10 h-10 rounded-full"
-              ></div>
-              <div
-                class="swiper-button-prev bg-white w-4 h-4 rounded-full"
-              ></div>
+                class="swiper-button-next bg-white !w-8 !h-8 rounded-full swiper-button-disabled"
+              >
+                <div class="icon-button-next">
+                  <svg
+                    class=""
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    height="20px"
+                    width="20px"
+                    stroke="gray"
+                    fill="#e3e3e3"
+                  >
+                    <path d="M14,18L8,12l6-6l1.4,1.4L10.8,12l4.6,4.6L14,18Z" />
+                  </svg>
+                </div>
+              </div>
+              <!-- nav next end -->
+              <!-- nav prev start -->
+              <div class="swiper-button-prev bg-white !w-8 !h-8 rounded-full">
+                <div class="icon-button-prev">
+                  <svg
+                    class=" "
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    height="20px"
+                    stroke="gray"
+                    width="20px"
+                    fill="white"
+                  >
+                    <path d="M12.6,12L8,7.4L9.4,6l6,6l-6,6L8,16.6L12.6,12Z" />
+                  </svg>
+                </div>
+              </div>
+              <!-- nav prev end -->
+              <!-- navigation of slider 2 start amazing part end -->
             </div>
+            <!-- اسلایدر دوم تموم swiper end   -->
           </div>
-          <!-- slider-bottom end -->
+          <!-- بخش پایینی اسلایدر شگفت انگیز / خود اسلایدر  پایان   -->
         </div>
       </div>
       <!--  slider 2 end -->
+
+      <!-- اسلایدر شگفت انگیز پایان  -->
+      <!-- products 8 items start  -->
+
+      <div
+        class="products-item w-full h-[190px] flex flex-nowrap items-center justify-around overflow-hidden p-1"
+      >
+        <!-- p-1 start -->
+        <div class="products-items1 w-[12%] h-full">
+          <a href="">
+            <div class="picture-product w-full h-[85%] bg-gray-100 rounded-md">
+              <img
+                class="w-full h-full object-cover"
+                src="./src/pics/body/products 8/imgi_44_1794948986.png"
+                alt="#"
+              />
+            </div>
+            <div class="text-product w-full h-[14%] p-1">
+              <span
+                class="flex items-center justify-center text-[12px] font-yekan"
+              >
+                لباس مردانه
+              </span>
+            </div>
+          </a>
+        </div>
+        <!-- p-1 end  -->
+        <!-- p-2 start  -->
+        <div class="products-items2 w-[12%] h-full">
+          <a href="">
+            <div class="picture-product w-full h-[85%] bg-gray-100 rounded-md">
+              <img
+                class="w-full h-full object-cover"
+                src="./src/pics/body/products 8/imgi_44_1794948986.png"
+                alt="#"
+              />
+            </div>
+            <div class="text-product w-full h-[14%] p-1">
+              <span
+                class="flex items-center justify-center text-[12px] font-yekan"
+              >
+                لباس مردانه
+              </span>
+            </div>
+          </a>
+        </div>
+        <!-- p-2 end -->
+        <!-- p-3 start -->
+        <div class="products-items3 w-[12%] h-full">
+          <a href="">
+            <div class="picture-product w-full h-[85%] bg-gray-100 rounded-md">
+              <img
+                class="w-full h-full object-cover"
+                src="./src/pics/body/products 8/imgi_44_1794948986.png"
+                alt="#"
+              />
+            </div>
+            <div class="text-product w-full h-[14%] p-1">
+              <span
+                class="flex items-center justify-center text-[12px] font-yekan"
+              >
+                لباس مردانه
+              </span>
+            </div>
+          </a>
+        </div>
+        <!-- p-3 end-->
+        <!-- p-4 start -->
+        <div class="products-items4 w-[12%] h-full">
+          <a href="">
+            <div class="picture-product w-full h-[85%] bg-gray-100 rounded-md">
+              <img
+                class="w-full h-full object-cover"
+                src="./src/pics/body/products 8/imgi_44_1794948986.png"
+                alt="#"
+              />
+            </div>
+            <div class="text-product w-full h-[14%] p-1">
+              <span
+                class="flex items-center justify-center text-[12px] font-yekan"
+              >
+                لباس مردانه
+              </span>
+            </div>
+          </a>
+        </div>
+        <!-- p-4 end -->
+        <!-- p-5 start -->
+        <div class="products-items5 w-[12%] h-full">
+          <a href="">
+            <div class="picture-product w-full h-[85%] bg-gray-100 rounded-md">
+              <img
+                class="w-full h-full object-cover"
+                src="./src/pics/body/products 8/imgi_44_1794948986.png"
+                alt="#"
+              />
+            </div>
+            <div class="text-product w-full h-[14%] p-1">
+              <span
+                class="flex items-center justify-center text-[12px] font-yekan"
+              >
+                لباس مردانه
+              </span>
+            </div>
+          </a>
+        </div>
+        <!-- p-5 end  -->
+        <!-- p-6 start -->
+        <div class="products-items6 w-[12%] h-full">
+          <a href="">
+            <div class="picture-product w-full h-[85%] bg-gray-100 rounded-md">
+              <img
+                class="w-full h-full object-cover"
+                src="./src/pics/body/products 8/imgi_44_1794948986.png"
+                alt="#"
+              />
+            </div>
+            <div class="text-product w-full h-[14%] p-1">
+              <span
+                class="flex items-center justify-center text-[12px] font-yekan"
+              >
+                لباس مردانه
+              </span>
+            </div>
+          </a>
+        </div>
+        <!-- p-6 end  -->
+        <!-- p-7 start  -->
+        <div class="products-items7 w-[12%] h-full">
+          <a href="">
+            <div class="picture-product w-full h-[85%] bg-gray-100 rounded-md">
+              <img
+                class="w-full h-full object-cover"
+                src="./src/pics/body/products 8/imgi_44_1794948986.png"
+                alt="#"
+              />
+            </div>
+            <div class="text-product w-full h-[14%] p-1">
+              <span
+                class="flex items-center justify-center text-[12px] font-yekan"
+              >
+                لباس مردانه
+              </span>
+            </div>
+          </a>
+        </div>
+        <!-- p-7 end  -->
+        <!-- p-8 start  -->
+        <div class="products-items8 w-[12%] h-full">
+          <a href="">
+            <div class="picture-product w-full h-[85%] bg-gray-100 rounded-md">
+              <img
+                class="w-full h-full object-cover"
+                src="./src/pics/body/products 8/imgi_44_1794948986.png"
+                alt="#"
+              />
+            </div>
+            <div class="text-product w-full h-[14%] p-1">
+              <span
+                class="flex items-center justify-center text-[12px] font-yekan"
+              >
+                لباس مردانه
+              </span>
+            </div>
+          </a>
+        </div>
+        <!-- p-8 end  -->
+      </div>
+
+      <!-- products 8 items end -->
+      <!-- products 4 items start  -->
+      <div
+        class="products-item w-full h-[260px] flex flex-nowrap items-center justify-around overflow-hidden p-1 my-5"
+      >
+        <!-- p-1 start -->
+        <div class="products-items1 w-[24%] h-full rounded-xl overflow-hidden">
+          <a href="">
+            <img
+              class="w-full h-full object-cover"
+              src="./src/pics/body/products 4/imgi_52_1795719244.png"
+              alt="#"
+            />
+          </a>
+        </div>
+        <!-- p-1 end -->
+        <!-- p-2 start -->
+        <div class="products-items2 w-[24%] h-full rounded-xl overflow-hidden">
+          <a href="">
+            <img
+              class="w-full h-full object-cover"
+              src="./src/pics/body/products 4/imgi_52_1795719244.png"
+              alt="#"
+            />
+          </a>
+        </div>
+        <!-- p-2 end  -->
+        <!-- p-3 start -->
+        <div class="products-items3 w-[24%] h-full rounded-xl overflow-hidden">
+          <a href="">
+            <img
+              class="w-full h-full object-cover"
+              src="./src/pics/body/products 4/imgi_52_1795719244.png"
+              alt="#"
+            />
+          </a>
+        </div>
+        <!-- p-3 end  -->
+        <!-- p-4 start -->
+        <div class="products-items4 w-[24%] h-full rounded-xl overflow-hidden">
+          <a href="">
+            <img
+              class="w-full h-full object-cover"
+              src="./src/pics/body/products 4/imgi_52_1795719244.png"
+              alt="#"
+            />
+          </a>
+        </div>
+        <!-- p-4 end  -->
+      </div>
+
+      <!-- products 4 items  end  -->
+      <!-- favorite brands start  -->
+
+      <div class="grid-box-item w-full h-[600px] flex flex-col gap-4">
+        <!-- نوار بالای قسمت برند ها شروع  -->
+        <div
+          class="text w-full h-10 flex flex-row justify-between items-center my-3"
+        >
+          <!-- right side start  -->
+          <a href="">
+            <div
+              class="right w-44 h-full flex flex-row justify-center items-center gap-2"
+            >
+              <div class="icon">
+                <img
+                  class="w-8 h-8"
+                  src="./src/pics/body/grid part/econ.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="text">
+                <span class="font-morabba text-[24px] font-semibold"
+                  >برندهای محبوب</span
+                >
+              </div>
+            </div>
+          </a>
+          <!-- right side end  -->
+          <!-- left side start  -->
+          <a href="">
+            <div
+              class="left w-40 h-full  flex flex-row justify-center items-center gap-1"
+            >
+              <div class="text">
+                <span
+                  class="font-yekan text-[18px] font-semibold text-green-500"
+                >
+                  مشاهده همه</span
+                >
+              </div>
+              <div class="icon w-4 h-4">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 8 8"
+                  style="transform: translateX(-1px)"
+                >
+                  <g clip-path="url(#pdp-angle_svg__a)">
+                    <path
+                      stroke="#22C55E"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M5.004 1.996 3 4l2.004 2.004"
+                    ></path>
+                  </g>
+                  <defs>
+                    <clipPath id="pdp-angle_svg__a">
+                      <path fill="#fff" d="M0 0h8v8H0z"></path>
+                    </clipPath>
+                  </defs>
+                </svg>
+              </div>
+            </div>
+          </a>
+          <!-- left side end  -->
+        </div>
+        <!-- نوار بالای قسمت برند ها پایان  -->
+        <!-- بحش برند ها شروع  -->
+        <div class="grid-body w-full h-full grid grid-cols-3 grid-rows-3 gap-x-2 ">
+          <div class="grid-items1 w-full h-auto  rounded-md overflow-hidden">
+            <a href="">
+            <img class="w-full" src="./src/pics/body/grid part/1795342848.png" alt="#">
+            </a>
+          </div>
+          <div class="grid-items2 w-full h-auto  rounded-md overflow-hidden">
+             <a href="">
+            <img class="w-full" src="./src/pics/body/grid part/1795342848.png" alt="#">
+            </a>
+          </div>
+          <div class="grid-items3 w-full h-auto  rounded-md overflow-hidden">
+             <a href="">
+            <img class="w-full" src="./src/pics/body/grid part/1795342848.png" alt="#">
+            </a>
+          </div>
+          <div class="grid-items4 w-full h-auto  rounded-md overflow-hidden">
+             <a href="">
+            <img class="w-full" src="./src/pics/body/grid part/1795342848.png" alt="#">
+            </a>
+          </div>
+          <div class="grid-items5 w-full h-auto  rounded-md overflow-hidden">
+             <a href="">
+            <img class="w-full" src="./src/pics/body/grid part/1795342848.png" alt="#">
+            </a>
+          </div>
+          <div class="grid-items6 w-full h-auto  rounded-md overflow-hidden">
+             <a href="">
+            <img class="w-full" src="./src/pics/body/grid part/1795342848.png" alt="#">
+            </a>
+          </div>
+          <div class="grid-items7 w-full h-auto  rounded-md overflow-hidden">
+             <a href="">
+            <img class="w-full" src="./src/pics/body/grid part/1795342848.png" alt="#">
+            </a>
+          </div>
+          <div class="grid-items8 w-full h-auto  rounded-md overflow-hidden">
+             <a href="">
+            <img class="w-full" src="./src/pics/body/grid part/1795342848.png" alt="#">
+            </a>
+          </div>
+          <div class="grid-items9 w-full h-auto  rounded-md overflow-hidden">
+             <a href="">
+            <img class="w-full" src="./src/pics/body/grid part/1795342848.png" alt="#">
+            </a>
+          </div>
+        </div>
+        <!-- بحش برند ها پایان  -->
+      </div>
+
+      <!-- favorite brands end   -->
     </div>
     <!-- wrapper body end -->
+
     <!-- wrapper footer start -->
     <footer>
-      <div class="footer-body w-full h-auto px-14 py-4">
+      <div class="wrapper-footer w-[1500px] h-auto px-14 py-4 mx-auto">
         <hr class="w-full px-14 bg-gray-800 mb-5" />
         <!-- قسمت بالای footer -->
         <div class="w-full h-auto flex justify-between items-start">
