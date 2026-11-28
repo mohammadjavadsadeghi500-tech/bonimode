@@ -74,7 +74,7 @@
 /* slider 2 cards */
 @layer components {
   .card-body {
-    @apply w-full font-yekan rounded-xl cursor-pointer  flex flex-col justify-start items-center overflow-hidden relative;
+    @apply !w-[19.3%] !h-auto font-yekan rounded-xl cursor-pointer  flex flex-col justify-start items-center overflow-hidden relative;
   }
 }
 
